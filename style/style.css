@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../assets/img/bg.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+}
+
+.carousel{
+  height: 500px; 
+  perspective: 400px; 
+}
+
+.carousel .carousel-item {
+	width: 300px;
+  height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(253, 253, 253, 0.699);
+	padding: auto;
+  border-radius: 15px;
+}
+
+.carousel-item .testi img{
+	border-radius: 8px;
+  width: 200px;
+	height: 300px;
+}
+
+.declaracao {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.declaracao .text-box {
+	width: 80%;
+}
+
+.declaracao .text-box h4 {
+	color: rgb(102, 0, 0);
+	font-size: 34px;
+	font-family: 'Patrick Hand', cursive;
+	margin-bottom: 10px;
+}
+
+.declaracao .text-box p {
+	font-size: 24px;
+	margin: 8px 0;
+	color: rgb(102, 0, 0);
+}
